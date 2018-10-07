@@ -1,0 +1,12 @@
+node_modules
+examples
+
+package-lock.json
+
+__tests__
+.vscode
+
+npm-debug.log
+
+.npmignore
+.gitignore
