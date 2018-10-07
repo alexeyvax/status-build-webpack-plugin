@@ -29,16 +29,21 @@ const ShowStatusBuild = require('status-build-webpack-plugin');
 ```
 
 Then you can see:
+
 - default message when the build is success
+
 ![default-success](https://github.com/alexeyvax/status-build-webpack-plugin/blob/master/examples/default-success.png?raw=true)
 
 - default message when the build is failed
+
 ![default-failed](https://github.com/alexeyvax/status-build-webpack-plugin/blob/master/examples/default-failed.png?raw=true)
 
 - when you set the custom message(image) and build is success
+
 ![success-with-image](https://github.com/alexeyvax/status-build-webpack-plugin/blob/master/examples/success-with-image.png?raw=true)
 
 - when you set the custom message(image) and build is failed
+
 ![failed-with-image](https://github.com/alexeyvax/status-build-webpack-plugin/blob/master/examples/failed-with-image.png?raw=true)
 
 If you want to see [more](https://github.com/alexeyvax/status-build-webpack-plugin/blob/master/examples/index.js) please see examples
