@@ -28,9 +28,11 @@ const ShowStatusBuild = require('status-build-webpack-plugin');
 }
 ```
 
+If you want to see [more](https://github.com/alexeyvax/status-build-webpack-plugin/blob/master/examples/index.js) please see examples
+
 ## API
 
-- **colors**
+### - colors
 
   description: *colors for output content, you can use colors from collection, please see below:*
 
@@ -52,8 +54,8 @@ colors: {
   failed" 'red',
 }
 ```
--------------------------------------------------------------------------------
-- **success**
+
+### - success
 
   description: *show this content when build is success*
 
@@ -63,8 +65,8 @@ colors: {
 ```
 success: 'Build Passed!'
 ```
--------------------------------------------------------------------------------
-- **failed**
+
+### - failed
 
   description: *show this content when build is failed*
 
@@ -74,8 +76,8 @@ success: 'Build Passed!'
 ```
 failed: 'Build Failed'
 ```
--------------------------------------------------------------------------------
-- **showErrorsNumber**
+
+### - showErrorsNumber
 
   description: *show errors number when build is failed*
 
@@ -85,7 +87,6 @@ failed: 'Build Failed'
 ```
 showErrorsNumber: false
 ```
--------------------------------------------------------------------------------
 
 ## Keywords
 
