@@ -1,13 +1,9 @@
 {
   "name": "status-build-webpack-plugin",
-  "version": "0.0.1",
-  "description": "This plugin can help developers show userfriendly messages or images about build status.",
+  "version": "0.0.2",
+  "description": "This plugin provide user-friendly messages or images about build status.",
   "main": "index.js",
-  "scripts": {
-    "dev": "webpack-dev-server --mode development --config webpack/dev.config.js",
-    "prod": "webpack --mode production --config webpack/prod.config.js"
-  },
-  "author": "alexeyvax",
+  "author": "alexeyvax Oleksii Vakhrushev <alexeyvax1990@gmail.com>",
   "homepage": "https://github.com/alexeyvax/status-build-webpack-plugin",
   "license": "ISC",
   "bugs": {
@@ -24,11 +20,5 @@
     "status",
     "webpack",
     "plugin"
-  ],
-  "devDependencies": {
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.9"
-  },
-  "dependencies": {}
+  ]
 }
